@@ -2,8 +2,12 @@ import React from 'react'
 import './index.css';
 import Tasks from './Components/Tasks';
 import Nav from './Components/Nav';
+import {useState} from 'react'
 import Footer from './Components/Footer';
 const App = () => {
+
+
+ 
   return (
     <div className=" mx-auto  h-screen bg-gradient-to-tr from-blue-600">
 
@@ -25,10 +29,7 @@ const App = () => {
       </h2>
 
       <Tasks />
-      <Tasks />
-      <Tasks />
-      <Tasks />
-      <Tasks />
+   
 
 
 
